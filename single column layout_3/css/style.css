@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container{
+	width: 700px;
+	margin: 50px auto;
+	border: 2px solid #ba492d;
+	text-align: justify;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZvU69pkuQetxfJ9GPHrWk-tSc-Si6_3xBOg&usqp=CAU);
+	
+}
+
+.menu{
+	display: flex;
+	margin-bottom: 15px;
+	background-color: #ba492d;
+}
+
+.menu a{
+	color: #000 ;
+	text-decoration: none;
+	padding: 10px 25px;
+	background-color: #ba492d;
+	font: bold 16px arial;
+}
+
+.menu a:hover, .menu a.active{
+	background-color: #fff;
+	color: #000;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+p{
+	padding: 0 10px;
+	margin-bottom: 5px;
+	font-size: 17px;
+	line-height: 20px;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.contant a.bl{
+	text-decoration:none;
+	color: #ba492d;
+	font-weight: bold;
+}
+
+.contant a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+#header{
+	display: flex;
+	margin-top: 55px;
+	padding: 10px;
+	justify-content: center;
+	background-color: #ba492d;
+}
+
+
+#header a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header a:hover{
+	color: #fff;
+	text-decoration: underline overline wavy #000;
+}
